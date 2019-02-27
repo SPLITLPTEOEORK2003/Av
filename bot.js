@@ -3,7 +3,7 @@ const client = new Discord.Client();
 var prefix = ".";
 var adminprefix = '.'
 
-const developers = ["544843719455539220"]
+const developers = ["508644081438556160"]
 client.on('message', message => {
 	if (msg.author.bot) return undefined;
     if (!msg.content.startsWith(prefix)) return undefined;
